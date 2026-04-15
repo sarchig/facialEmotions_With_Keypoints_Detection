@@ -1,4 +1,7 @@
-# Facial Expression Detection using Emotion & Keypoints
+# Deep Learning Project
+
+## Project Title
+Facial Expression Detection using Emotion & Keypoints
 
 ## 📌 Overview
 This project implements a **dual-pipeline deep learning system** for facial analysis:
@@ -6,6 +9,10 @@ This project implements a **dual-pipeline deep learning system** for facial anal
 2. **Facial Emotion Classification** – classifies images into 7 emotion categories
 
 The system combines both outputs to generate a **unified prediction**, overlaying facial landmarks along with the detected emotion.
+
+## Datasets
+Source: https://www.kaggle.com/c/facial-keypoints-detection/overview
+Source: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
 ---
 
@@ -38,7 +45,7 @@ All models use:
 
 ### Shared Custom Head
 - Global Average Pooling
-- Dense Layer (512 units)
+- Dense Layer 
 - Dropout (0.3)
 - Output Layer
 
@@ -138,3 +145,12 @@ The final system:
 ## 📁 Project Structure
 # facialEmotions_With_Keypoints_Detection
 Complete deep learning project that focuses on two important areas of facial analysis: facial keypoint detection and facial emotion recognition. The project utilizes pre-trained Convolutional Neural Networks (CNNs) and various data augmentation techniques to build robust models capable of accurately performing these tasks.
+
+## How to Run the Project
+1. Download the dataset using the link provided above.
+2. Place the dataset in the `data/` directory and keep file name as below.
+    Facial Keypoint dataset file name: "facial_keypoint_data.csv"
+    Facvial Emotion dataset file name: "icml_emotions_data.csv".
+3. Before execution of the colab notbook, update the Project Root folder
+    #Project root folder path (update path accordingly based on project folder structure)
+    PROJECT_ROOT = Path("drive/MyDrive/<Path to the Project folder>") 

@@ -1,6 +1,6 @@
-# Deep Learning Project
+### Deep Learning Project
 
-## Project Title
+# Project Title
 Facial Expression Detection using Emotion & Keypoints
 
 ## 📌 Overview

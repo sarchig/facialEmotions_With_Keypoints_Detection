@@ -1,7 +1,7 @@
 ### Deep Learning Project
 
-# Project Title
-Facial Expression Detection using Emotion & Keypoints
+## Project Title
+# Facial Expression Detection using Emotion & Keypoints
 
 ## 📌 Overview
 This project implements a **dual-pipeline deep learning system** for facial analysis:
